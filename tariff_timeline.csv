@@ -1,0 +1,140 @@
+date,imposing_country,target_country,sector,tariff_rate_pct,prev_rate_pct,type,legal_basis,estimated_trade_value_usd_bn,retaliation,source,notes,tariff_rate_delta,year,quarter,month
+2018-03-08,USA,ALL,Steel,25.0,0.0,New Tariff,Section 232,29.0,False,Federal Register,Trump signs 25% global steel tariffs under national security grounds,25.0,2018,2018Q1,2018-03
+2018-03-08,USA,ALL,Aluminum,10.0,0.0,New Tariff,Section 232,17.0,False,Federal Register,Trump signs 10% global aluminum tariffs under national security grounds,10.0,2018,2018Q1,2018-03
+2018-06-01,EU27,USA,"Steel, Consumer, Agriculture",25.0,0.0,Retaliation,EU Safeguard Regulation,3.4,True,European Commission,"EU retaliates on Harley-Davidson, bourbon, steel with 25% duties",25.0,2018,2018Q2,2018-06
+2018-06-01,CAN,USA,"Steel, Aluminum, Consumer",25.0,0.0,Retaliation,Customs Tariff Act,16.6,True,Canada.ca,Canada dollar-for-dollar retaliation on C$16.6B of US goods,25.0,2018,2018Q2,2018-06
+2018-06-05,MEX,USA,"Steel, Pork, Cheese, Apples",20.0,0.0,Retaliation,Mexican Customs Law,3.0,True,Economy Ministry Mexico,Mexico targets US farm products and steel in tit-for-tat retaliation,20.0,2018,2018Q2,2018-06
+2018-07-06,USA,CHN,"Tech, Industrial, Aerospace",25.0,0.0,New Tariff,Section 301,34.0,False,USTR.gov,List 1: $34B in Chinese tech goods hit with 25% tariffs,25.0,2018,2018Q3,2018-07
+2018-07-06,CHN,USA,"Agriculture, Autos, Seafood",25.0,0.0,Retaliation,MOFCOM Order,34.0,True,MOFCOM,"China retaliates on $34B US goods — soybeans, autos, pork",25.0,2018,2018Q3,2018-07
+2018-08-23,USA,CHN,"Semiconductors, Chemicals, Rail",25.0,0.0,New Tariff,Section 301,16.0,False,USTR.gov,List 2: additional $16B in Chinese goods,25.0,2018,2018Q3,2018-08
+2018-08-23,CHN,USA,"Coal, Oil, Medical, Autos",25.0,0.0,Retaliation,MOFCOM Order,16.0,True,MOFCOM,"China's List 2 retaliation — oil, coal, medical equipment",25.0,2018,2018Q3,2018-08
+2018-09-24,CHN,USA,"LNG, Agriculture, Aircraft",10.0,0.0,Retaliation,MOFCOM Order,60.0,True,MOFCOM,China's $60B List 3 retaliation at 5–10%,10.0,2018,2018Q3,2018-09
+2018-09-24,USA,CHN,"Consumer Goods, Furniture, Electronics",10.0,0.0,New Tariff,Section 301,200.0,False,USTR.gov,List 3: $200B of Chinese goods at 10% (rising to 25% in May 2019),10.0,2018,2018Q3,2018-09
+2019-05-10,USA,CHN,"Consumer Goods, Furniture, Electronics",25.0,10.0,Escalation,Section 301,200.0,False,USTR.gov,List 3 tariffs raised from 10% to 25% after trade talks break down,15.0,2019,2019Q2,2019-05
+2019-06-01,CHN,USA,"Agriculture, LNG, Chemicals",25.0,10.0,Escalation,MOFCOM Order,60.0,True,MOFCOM,China raises List 3 retaliation rates to match US escalation,15.0,2019,2019Q2,2019-06
+2019-09-01,USA,CHN,"Consumer Electronics, Apparel, Footwear",15.0,0.0,New Tariff,Section 301,112.0,False,USTR.gov,"List 4A: 15% on $112B including consumer electronics, apparel, footwear",15.0,2019,2019Q3,2019-09
+2020-01-15,USA,CHN,"Consumer Goods, Phase 1 Rollback",7.5,15.0,Reduction,Phase 1 Agreement,120.0,False,USTR.gov,Phase 1 deal: List 4A cut to 7.5%; List 4B suspended; China pledges $200B in US purchases,-7.5,2020,2020Q1,2020-01
+2020-02-14,USA,EU27,"Airbus, Cheese, Wine",25.0,0.0,New Tariff,WTO Authorization,7.5,False,USTR.gov,US expands Airbus-linked tariffs on EU goods (WTO-authorized countermeasures),25.0,2020,2020Q1,2020-02
+2021-04-01,USA,EU27,"Steel, Aluminum",0.0,25.0,Reduction,Bilateral Agreement,10.0,False,Whitehouse.gov,US-EU tariff truce: Steel/aluminum tariffs suspended for 2 years (TRQ arrangement),-25.0,2021,2021Q2,2021-04
+2022-10-07,USA,CHN,"Semiconductors, AI Chips",25.0,0.0,Export Control,EAR / Export Controls,50.0,False,BIS / Commerce Dept,BIS expands chip export controls — bans advanced semiconductors & chip-making tools to China,25.0,2022,2022Q4,2022-10
+2023-07-03,CHN,ALL,"Gallium, Germanium",100.0,0.0,Export Restriction,PRC Export Controls Law,1.5,True,MOFCOM,China restricts exports of gallium and germanium — critical semiconductor materials,100.0,2023,2023Q3,2023-07
+2023-12-01,CHN,ALL,Graphite,100.0,0.0,Export Restriction,PRC Export Controls Law,3.0,True,MOFCOM,China restricts graphite exports — critical for EV batteries,100.0,2023,2023Q4,2023-12
+2024-05-14,USA,CHN,EVs,100.0,25.0,Escalation,Section 301 Review,2.0,False,USTR.gov,Biden raises China EV tariff from 25% to 100%,75.0,2024,2024Q2,2024-05
+2024-05-14,USA,CHN,"Steel, Aluminum",25.0,7.5,Escalation,Section 301 Review,3.3,False,USTR.gov,Biden triples Section 301 steel and aluminum tariffs on China,17.5,2024,2024Q2,2024-05
+2024-05-14,USA,CHN,Semiconductors,50.0,25.0,Escalation,Section 301 Review,8.0,False,USTR.gov,Biden raises chip tariffs to 50%; ship-to-shore cranes to 25%,25.0,2024,2024Q2,2024-05
+2024-10-30,EU27,CHN,EVs,35.0,10.0,New Tariff,EU Anti-Subsidy Regulation,9.0,False,European Commission,"EU adds provisional countervailing duties on Chinese EVs (BYD 17%, SAIC 35.3%)",25.0,2024,2024Q4,2024-10
+2024-12-04,CHN,EU27,"Dairy, Pork",30.0,0.0,Retaliation,MOFCOM Order,3.0,True,MOFCOM,China retaliates on EU dairy and pork following EV tariff,30.0,2024,2024Q4,2024-12
+2025-01-20,USA,CHN,All Goods,10.0,7.5,Escalation,Section 301,450.0,False,Whitehouse.gov,Day-1 executive order — 10% blanket tariff on all Chinese imports,2.5,2025,2025Q1,2025-01
+2025-02-01,USA,MEX,All Goods,25.0,0.0,New Tariff,IEEPA,475.0,False,Whitehouse.gov,25% tariffs on all Mexican imports; partially paused after talks,25.0,2025,2025Q1,2025-02
+2025-02-01,USA,CAN,All Goods,25.0,0.0,New Tariff,IEEPA,350.0,False,Whitehouse.gov,25% tariffs on all Canadian imports citing fentanyl/border security,25.0,2025,2025Q1,2025-02
+2025-02-04,CHN,USA,"Agriculture, Energy",15.0,0.0,Retaliation,MOFCOM Order,80.0,True,MOFCOM,"China retaliates: 15% on LNG/coal, 10% on crude oil & farm equipment",15.0,2025,2025Q1,2025-02
+2025-02-10,CAN,USA,"Consumer Goods, Steel",25.0,0.0,Retaliation,Customs Tariff Act,30.0,True,Canada.ca,Canada dollar-for-dollar retaliation on C$42B of US goods,25.0,2025,2025Q1,2025-02
+2025-03-04,USA,CHN,All Goods,20.0,10.0,Escalation,IEEPA,450.0,False,Whitehouse.gov,Trump doubles down — cumulative China tariff rises to 20%,10.0,2025,2025Q1,2025-03
+2025-03-12,EU27,USA,"Steel, Bourbon, Motorcycles",25.0,0.0,Retaliation,EU Safeguard Regulation,18.0,True,European Commission,EU reimpose 2018-era retaliatory duties in response to global steel tariffs,25.0,2025,2025Q1,2025-03
+2025-03-12,USA,ALL,Steel,25.0,25.0,Expansion,Section 232,40.0,False,Federal Register,Section 232 steel tariffs reinstated globally — Canada and Mexico exemptions removed,0.0,2025,2025Q1,2025-03
+2025-04-02,USA,ALL,All Goods,10.0,0.0,Universal Baseline,IEEPA,3300.0,False,USTR.gov,Liberation Day — 10% universal baseline tariff on ALL US imports,10.0,2025,2025Q2,2025-04
+2025-04-04,CHN,USA,All Goods,34.0,15.0,Retaliation,MOFCOM Order,180.0,True,MOFCOM,China responds to Liberation Day with blanket 34% tariff on all US goods,19.0,2025,2025Q2,2025-04
+2025-04-09,USA,EU27,All Goods,20.0,3.5,Escalation,IEEPA,600.0,False,USTR.gov,20% tariff on all EU goods; 90-day pause announced same day for non-China,16.5,2025,2025Q2,2025-04
+2025-04-09,USA,CHN,All Goods,145.0,54.0,Escalation,IEEPA + Section 301,525.0,False,USTR.gov,US raises China tariffs to 145% after China's 84% counter-tariff,91.0,2025,2025Q2,2025-04
+2025-04-09,CHN,USA,All Goods,84.0,34.0,Retaliation,MOFCOM Order,180.0,True,MOFCOM,China escalates to 84% retaliatory tariff matching US aggression,50.0,2025,2025Q2,2025-04
+2025-04-15,EU27,USA,"Steel, Agriculture, Consumer",25.0,0.0,Retaliation,EU Safeguard Regulation,21.0,True,European Commission,EU first-wave countermeasures on €26B of US goods,25.0,2025,2025Q2,2025-04
+2025-04-25,CHN,USA,All Goods,125.0,84.0,Retaliation,MOFCOM Order,180.0,True,MOFCOM,China raises to 125% — announces no further escalations regardless of US actions,41.0,2025,2025Q2,2025-04
+2025-07-01,USA,IND,"Pharma, Electronics",26.0,0.0,New Tariff,IEEPA,85.0,False,USTR.gov,Post-90-day pause: India-specific tariffs reinstated at 26%,26.0,2025,2025Q3,2025-07
+2025-07-15,IND,USA,Agriculture,100.0,40.0,Retaliation,Customs Tariff Act 1975,8.0,True,MoCI India,India retaliates with 100% duties on US farm products,60.0,2025,2025Q3,2025-07
+2026-04-10,USA,Global,General,10.0,0.0,NewsAPI,,,False,The Times of India,US trade court weighs legality of Trump 10% global tariff,10.0,2026,2026Q2,2026-04
+2026-04-11,USA,Global,General,50.0,0.0,NewsAPI,,,False,Naturalnews.com,Trump Threatens 50% Tariffs on Nations Supplying Weapons to Iran,50.0,2026,2026Q2,2026-04
+2026-04-13,USA,China,General,50.0,0.0,NewsAPI,,,False,CNBC,Trump threatens 50% tariffs on China as report suggests plans for arms shipment to Iran,50.0,2026,2026Q2,2026-04
+2026-05-01,USA,EU,General,25.0,0.0,NewsAPI,,,False,Breitbart News,Trump Says He Will Raise Tariffs on European Cars and Trucks to 25%,25.0,2026,2026Q2,2026-05
+2026-05-01,USA,UK,General,25.0,0.0,NewsAPI,,,False,CNBC,UK exports to U.S. plunge by 25% after Trump's 'liberation day' tariffs blitz,25.0,2026,2026Q2,2026-05
+2026-05-04,USA,EU,General,25.0,0.0,NewsAPI,,,False,Moby.co,Trump Threatened European Cars With a 25% Tariff. Again.,25.0,2026,2026Q2,2026-05
+2026-05-05,USA,EU,General,25.0,0.0,NewsAPI,,,False,Al Jazeera English,US plans to hike tariffs on EU cars to 25% will hit luxury market the most,25.0,2026,2026Q2,2026-05
+2026-05-08,USA,India,General,10.0,0.0,NewsAPI,,,False,BusinessLine,US Court rules against Trump’s 10% global tariff lending India a negotiating edge,10.0,2026,2026Q2,2026-05
+2026-05-08,USA,Global,General,10.0,0.0,NewsAPI,,,False,CBS News,What the Trump administration's latest tariff blow means for businesses,10.0,2026,2026Q2,2026-05
+2026-05-08,USA,Japan,General,19.0,0.0,NewsAPI,,,False,Associated Press,"Toyota's profit fell 19% as US tariffs hit, though sales rose",19.0,2026,2026Q2,2026-05
+2026-05-09,USA,EU,General,25.0,0.0,NewsAPI,,,False,DW (English),Tariffs or not? How EU is dealing with US 'dealmaking',25.0,2026,2026Q2,2026-05
+2026-05-13,USA,India,General,15.0,0.0,NewsAPI,,,False,The Times of India,"Robert Kiyosaki, Rich Dad Poor Dad author, warns global economy is about to crash in 2026, but says it's a good news, here's why",15.0,2026,2026Q2,2026-05
+2026-05-14,USA,Global,General,10.0,0.0,NewsAPI,,,False,Naturalnews.com,Appeals Court Restores Trump’s 10% Global Tariff Plan Pending Legal Challenge,10.0,2026,2026Q2,2026-05
+2026-05-16,USA,China,General,145.0,0.0,NewsAPI,,,False,Crypto Briefing,"China and US agree to slash tariffs for 90 days, dropping levies from 145% to 30%",145.0,2026,2026Q2,2026-05
+2026-05-18,USA,EU,General,25.0,0.0,NewsAPI,,,False,Crypto Briefing,Trump threatens to reimpose 25% tariffs on EU autos as trade deal falters,25.0,2026,2026Q2,2026-05
+2026-05-22,USA,EU,General,25.0,0.0,NewsAPI,,,False,Globalresearch.ca,U.S. Economic Warfare against Europe: Trump Attempts to Ruin European Auto Industry With 25% Tariffs,25.0,2026,2026Q2,2026-05
+2026-05-27,USA,Global,General,39.0,0.0,NewsAPI,,,False,Fortune,This is no way to treat our Swiss friends,39.0,2026,2026Q2,2026-05
+2026-05-27,USA,China,General,10.0,0.0,NewsAPI,,,False,Shtfplan.com,"Trump Imposes 10% Tariff on China Over Fentanyl Crisis, Escalating Economic Warfare",10.0,2026,2026Q2,2026-05
+2026-06-03,USA,Global,General,5.0,0.0,NewsAPI,,,False,Crypto Briefing,Trump administration proposes up to 12.5% tariffs on 60 nations over forced labor enforcement failures,5.0,2026,2026Q2,2026-06
+2026-06-03,USA,Japan,General,5.0,0.0,NewsAPI,,,False,Newsonjapan.com,U.S. Proposes 12.5% Additional Tariff on Japan,5.0,2026,2026Q2,2026-06
+2026-06-03,USA,Global,General,10.0,0.0,NewsAPI,,,False,Financial Post,Trump Begins Rebuilding His Tariff Wall Citing Forced Labor,10.0,2026,2026Q2,2026-06
+2026-06-03,USA,India,General,5.0,0.0,NewsAPI,,,False,The Times of India,New tariff: Think tank GTRI makes a case against US' additional 12.5% duty on India,5.0,2026,2026Q2,2026-06
+2026-06-04,USA,Global,General,5.0,0.0,NewsAPI,,,False,The Punch,"Nigeria, 59 other economies face new 12.5% US tariff threat",5.0,2026,2026Q2,2026-06
+2026-06-05,USA,Global,General,5.0,0.0,NewsAPI,,,False,The Punch,Nigeria faces 27.5% US tariff over forced labour rule,5.0,2026,2026Q2,2026-06
+2026-06-06,USA,Global,General,125.0,0.0,NewsAPI,,,False,The Next Web,Chinese EVs are circling the US market. Detroit’s best option may be to partner with them.,125.0,2026,2026Q2,2026-06
+2026-06-18,USA,India,General,99.0,0.0,NewsAPI,,,False,The Times of India,"India-UK free trade deal to take effect on July 15, opening 99% of exports to tariff-free access",99.0,2026,2026Q2,2026-06
+2026-06-19,USA,China,General,55.0,0.0,NewsAPI,,,False,Ibtimes.com.au,Australian Beef Hit With 55% China Tariff After Hitting Import Quota in Record Time,55.0,2026,2026Q2,2026-06
+2026-06-19,USA,Canada,General,10.0,0.0,NewsAPI,,,False,Biztoc.com,"Canada imposes 10% global tariff on canned vegetables — excluding U.S., Mexico",10.0,2026,2026Q2,2026-06
+2026-06-26,USA,Global,General,100.0,0.0,NewsAPI,,,False,Macdailynews.com,President Trump threatens 100% tariff on all goods from any countries with digital tax,100.0,2026,2026Q2,2026-06
+2026-06-26,USA,EU,General,100.0,0.0,NewsAPI,,,False,BBC News,Trump threatens 100% tariff on European nations over tech tax,100.0,2026,2026Q2,2026-06
+2026-07-09,USA,India,General,57.0,0.0,NewsAPI,,,False,BusinessLine,New Zealand announces 57% tariff-free exports to India ahead of Modi visit,57.0,2026,2026Q3,2026-07
+2026-07-15,USA,EU,General,100.0,0.0,NewsAPI,,,False,The Times of India,100% tariff threat over Russian oil could roil India-US ties,100.0,2026,2026Q3,2026-07
+2026-07-16,USA,Australia,General,5.0,0.0,NewsAPI,,,False,The Conversation Africa,Australian companies to face fines and criminal action if they fail to prevent modern slavery,5.0,2026,2026Q3,2026-07
+2026-07-16,USA,Brazil,General,25.0,0.0,NewsAPI,,,False,Crypto Briefing,"US slaps 25% tariffs on Brazil, turning up the heat just before elections",25.0,2026,2026Q3,2026-07
+2026-07-17,USA,Brazil,General,25.0,0.0,NewsAPI,,,False,WWD,What Trump’s 25% Brazil Tariffs Could Mean for the American Footwear Sector,25.0,2026,2026Q3,2026-07
+2026-07-20,USA,Canada,General,50.0,0.0,NewsAPI,,,False,KSAT San Antonio,"Trump imposes 50% tariff on Canadian goods, citing disputes over autos, alcohol and cheese",50.0,2026,2026Q3,2026-07
+2026-07-20,USA,Global,General,50.0,0.0,NewsAPI,,,False,Fortune,"Trump to impose 50% tariffs on most Canadian goods, invoking the ‘nuclear option’ that could unleash a new wave of economic chaos and inflation",50.0,2026,2026Q3,2026-07
+2026-07-20,USA,EU,General,10.0,0.0,NewsAPI,,,False,Biztoc.com,Trump's temporary global tariffs are set to expire this Friday,10.0,2026,2026Q3,2026-07
+2026-07-21,USA,India,General,10.0,0.0,NewsAPI,,,False,The Times of India,"India engaged with the US, studying all the developments: Govt tells Parliament",10.0,2026,2026Q3,2026-07
+2026-07-21,USA,Global,General,50.0,0.0,NewsAPI,,,False,CBC News,Why Trump is threatening new 50% tariffs on Canadian exports right now,50.0,2026,2026Q3,2026-07
+2026-07-21,USA,Canada,General,50.0,0.0,NewsAPI,,,False,HuffPost,Trump Imposes 50% Tariffs On Most Canadian Goods,50.0,2026,2026Q3,2026-07
+2026-07-21,USA,Brazil,General,25.0,0.0,NewsAPI,,,False,Crypto Briefing,Brazil and US clash over future of payments amid Pix system interest,25.0,2026,2026Q3,2026-07
+2026-07-21,USA,Global,General,10.0,0.0,NewsAPI,,,False,CNA,US trade envoy says acting 'soon' on new tariffs as 10% levy to expire,10.0,2026,2026Q3,2026-07
+2026-07-21,USA,China,General,50.0,0.0,NewsAPI,,,False,Nakedcapitalism.com,Links 7/21/2026,50.0,2026,2026Q3,2026-07
+2026-07-22,USA,Global,General,100.0,0.0,NewsAPI,,,False,BusinessLine,US to impose 100% tariffs on generic medicine imports from Aug 2028,100.0,2026,2026Q3,2026-07
+2026-07-22,USA,EU,General,200.0,0.0,NewsAPI,,,False,The Times of India,200% Trump tariff shock? India’s cheap pills may still beat US rivals,200.0,2026,2026Q3,2026-07
+2026-07-22,USA,India,General,200.0,0.0,NewsAPI,,,False,The Times of India,Indian pharma firms may yet survive Trump's 200% tariff bombshell,200.0,2026,2026Q3,2026-07
+2026-07-22,USA,Global,General,10.0,0.0,NewsAPI,,,False,WWD,"With Trump’s 10% Duties Expiring, Trade Czar Says New Tariffs Expected ‘Soon’",10.0,2026,2026Q3,2026-07
+2026-07-22,USA,China,General,200.0,0.0,NewsAPI,,,False,Biztoc.com,What would 200% US tariffs on generic drugs mean for China’s pharmaceutical industry?,200.0,2026,2026Q3,2026-07
+2026-07-23,USA,India,General,10.0,0.0,NewsAPI,,,False,The Times of India,US' temporary 10% tariff set to expire on Friday unless extended or new duties announced,10.0,2026,2026Q3,2026-07
+2026-07-23,USA,Global,General,50.0,0.0,NewsAPI,,,False,Robb Report,"President Trump Just Announced a New 50% Tariff on Canadian Whisky, Beer, and More Goods",50.0,2026,2026Q3,2026-07
+2026-07-23,USA,Global,General,39.0,0.0,NewsAPI,,,False,BusinessLine,Cipla banks on diversified model to weather tariff woes,39.0,2026,2026Q3,2026-07
+2026-07-23,USA,Global,General,99.0,0.0,NewsAPI,,,False,Crypto Briefing,"Trump administration plans permanent tariffs to replace temporary ones, rattling global markets",99.0,2026,2026Q3,2026-07
+2026-07-24,USA,EU,General,25.0,0.0,NewsAPI,,,False,Crypto Briefing,Trump’s tariff overhaul creates winners and losers: Europe benefits while Brazil gets hammered,25.0,2026,2026Q3,2026-07
+2026-07-24,USA,UK,General,5.0,0.0,NewsAPI,,,False,Vanguard,"U.S hits Nigeria, 7 African nations with 12.5% tariff over forced labour claims",5.0,2026,2026Q3,2026-07
+2026-07-24,USA,EU,General,50.0,0.0,NewsAPI,,,False,Fortune,Canada celebrates new Detroit River bridge connecting Ontario to Michigan as 50% tariff feud keeps American officials away,50.0,2026,2026Q3,2026-07
+2026-07-24,USA,Global,General,5.0,0.0,NewsAPI,,,False,The Punch,US imposes 12.5% tariff on Nigerian imports over forced labour claims,5.0,2026,2026Q3,2026-07
+2026-07-24,USA,Global,General,10.0,0.0,NewsAPI,,,False,Fortune,Trump reimposes tariffs on 60 countries using forced-labor law,10.0,2026,2026Q3,2026-07
+2026-07-24,USA,China,General,10.0,0.0,NewsAPI,,,False,RTE,Trump imposes new tariffs on dozens of trading partners,10.0,2026,2026Q3,2026-07
+2026-07-24,USA,Canada,General,25.0,0.0,NewsAPI,,,False,CNBC,"Trump sued hours after new tariffs take effect, as experts say they may not hold up",25.0,2026,2026Q3,2026-07
+2026-07-24,USA,China,General,5.0,0.0,NewsAPI,,,False,The Times of India,"China says it opposes new US tariffs, warns against trade wars",5.0,2026,2026Q3,2026-07
+2026-07-25,USA,Global,General,10.0,0.0,NewsAPI,,,False,The Times of India,Trump’s new tariffs prompt lawsuit from small businesses,10.0,2026,2026Q3,2026-07
+2026-07-25,USA,China,General,10.0,0.0,NewsAPI,,,False,Naturalnews.com,"Trump administration imposes forced-labor tariffs on 60 nations, rebuilding trade strategy after court setback",10.0,2026,2026Q3,2026-07
+2026-07-25,USA,Global,General,5.0,0.0,NewsAPI,,,False,Crypto Briefing,"Supreme Court strikes down Trump tariffs in landmark ruling, administration pivots to new levies on 60 economies",5.0,2026,2026Q3,2026-07
+2026-07-25,USA,India,General,45.0,0.0,NewsAPI,,,False,The Times of India,45% of India’s exports to US out of 10% section 301 tariffs: Govt,45.0,2026,2026Q3,2026-07
+2026-07-25,USA,Global,General,15.0,0.0,NewsAPI,,,False,Crypto Briefing,Donald Trump renews aggressive tariff actions after Supreme Court ruling,15.0,2026,2026Q3,2026-07
+2026-07-25,USA,India,General,5.0,0.0,NewsAPI,,,False,The Times of India,Trump's tariffs just went from 12.5% to 10%: Why did India get a breather and what it means?,5.0,2026,2026Q3,2026-07
+2026-07-27,USA,Canada,General,50.0,0.0,NewsAPI,,,False,Fortune,Canada’s awkward tariff summer: Gordie Howe Bridge opens for traffic a week after Michigan and White House officials got uninvited,50.0,2026,2026Q3,2026-07
+2026-07-28,USA,Global,General,50.0,0.0,NewsAPI,,,False,Forbes,Canadian Whisky Faces A 50% U.S. Tariff. When Will Prices Rise?,50.0,2026,2026Q3,2026-07
+2026-08-02,USA,Global,General,5.0,0.0,NewsAPI,,,False,CryptoSlate,Donald Trump releases the $1.2 million data feed that lets Wall Street front-run his market-moving policy announcements,5.0,2026,2026Q3,2026-08
+2026-08-05,USA,Global,General,25.0,0.0,NewsAPI,,,False,PRNewswire,"President Trump's Bold Action Ensures Free and Fair Trade for Domestic Quartz Industry, QMAA Industry Executives Say",25.0,2026,2026Q3,2026-08
+2026-08-06,USA,China,General,15.0,0.0,NewsAPI,,,False,Crypto Briefing,Trump administration imposes 15% tariff on polysilicon imports from China,15.0,2026,2026Q3,2026-08
+2026-08-07,USA,Global,General,15.0,0.0,NewsAPI,,,False,The Times of India,Vikram Solar shares crash 11% to fresh lifetime low. What's spooking investors?,15.0,2026,2026Q3,2026-08
+2026-08-07,USA,China,General,15.0,0.0,NewsAPI,,,False,RT,Trump orders 15% tariff on key chip material to challenge China,15.0,2026,2026Q3,2026-08
+2026-08-11,USA,Canada,General,50.0,0.0,NewsAPI,,,False,Financial Post,Ottawa offers to cover 50% of cost of shipping steel across Canada as tariffs weigh,50.0,2026,2026Q3,2026-08
+2026-08-14,USA,Global,General,100.0,0.0,NewsAPI,,,False,PetaPixel,"Trump Places 100% Tariffs on Heavy Drones, 25% on Smaller Ones",100.0,2026,2026Q3,2026-08
+2026-08-17,USA,Canada,General,50.0,0.0,NewsAPI,,,False,NBC News,Canada races to avoid new U.S. tariffs of up to 50%,50.0,2026,2026Q3,2026-08
+2026-08-19,USA,India,General,55.0,0.0,NewsAPI,,,False,Business Standard,What US safeguard tariffs on quartz surface products mean for India,55.0,2026,2026Q3,2026-08
+2026-08-19,USA,Global,General,50.0,0.0,NewsAPI,,,False,Robb Report,Trump Has Paused His 50% Tariff on Canadian Spirits and More Goods—for Now,50.0,2026,2026Q3,2026-08
+2026-08-21,USA,Canada,General,50.0,0.0,NewsAPI,,,False,WWD,"With Hours to Spare Before 50% Tariffs Take Effect, Canada Trade Deal Remains Elusive",50.0,2026,2026Q3,2026-08
+2026-08-23,USA,Canada,General,50.0,0.0,NewsAPI,,,False,The Times of India,What to know about Trump’s 50% tariffs on Canadian goods,50.0,2026,2026Q3,2026-08
+2026-08-24,USA,Global,General,20.0,0.0,NewsAPI,,,False,Crypto Briefing,"President Trump imposes new tariff on Chinese goods, raising total to 20%",20.0,2026,2026Q3,2026-08
+2026-08-24,USA,Global,General,5.0,0.0,NewsAPI,,,False,The Times of India,"Trump to impose 7.5 percent tariff on Chinese goods, raising the total to 20 percent",5.0,2026,2026Q3,2026-08
+2026-08-24,USA,China,General,5.0,0.0,NewsAPI,,,False,Associated Press,"Trump eyes new tariff on China amid economic tensions, AP sources say",5.0,2026,2026Q3,2026-08
+2026-08-24,USA,Global,General,50.0,0.0,NewsAPI,,,False,Financial Post,Trump threatens 50% tariffs on Canadian autos and auto parts,50.0,2026,2026Q3,2026-08
+2026-08-24,USA,Canada,General,4.0,0.0,NewsAPI,,,False,24/7 Wall St.,"Ford and Stellantis Drop 4% as Trump Sets 50% Auto Tariffs on Canada, General Motors Slips",4.0,2026,2026Q3,2026-08
+2026-08-24,USA,Canada,General,50.0,0.0,NewsAPI,,,False,The Irish Times,Trump threatens 50% tariffs on all cars and trucks from Canada amid trade fight,50.0,2026,2026Q3,2026-08
+2026-08-25,USA,China,General,5.0,0.0,NewsAPI,,,False,Business Standard,Trump weighs 7.5% tariff on China for flooding market with cheap goods,5.0,2026,2026Q3,2026-08
+2026-08-25,USA,Canada,General,50.0,0.0,NewsAPI,,,False,Crypto Briefing,"US-Canada trade negotiations collapse in final hours, triggering 50% tariffs on $20B in goods",50.0,2026,2026Q3,2026-08
+2026-08-26,USA,Global,General,5.0,0.0,NewsAPI,,,False,The Times of India,"US inflation holds at 3.7% in July, complicating Fed rate debate",5.0,2026,2026Q3,2026-08
+2026-08-26,USA,Canada,General,50.0,0.0,NewsAPI,,,False,Naturalnews.com,"Trump Escalates Canada Trade War as Ontario Says Ready to Cut Energy, Critical Minerals to U.S.",50.0,2026,2026Q3,2026-08
+2026-08-29,USA,Global,General,50.0,0.0,NewsAPI,,,False,Fortune,"For his latest tariffs, Trump used a statute so obscure many lawyers didn’t even know it still existed. ‘This law is literally a blank canvas’",50.0,2026,2026Q3,2026-08
+2026-08-31,USA,Canada,General,50.0,0.0,NewsAPI,,,False,Crypto Briefing,"Trump proposes 50% tariff on Canadian car imports, targeting Ottawa",50.0,2026,2026Q3,2026-08
+2026-09-04,USA,China,General,5.0,0.0,NewsAPI,,,False,CNBC,"Volkswagen jumps 5% on plans to cut 50,000 jobs amid tariffs, China competition",5.0,2026,2026Q3,2026-09
+2026-09-09,USA,Global,General,50.0,0.0,NewsAPI,,,False,Naturalnews.com,"Trump expands 50% tariffs on Canadian cheese, furniture, cars and 70 more items starting Sept. 15",50.0,2026,2026Q3,2026-09
+2026-09-10,USA,Canada,General,50.0,0.0,NewsAPI,,,False,Reason,A 50% Tariff on Pencil Parts? Welcome to the U.S.-Canada Trade War.,50.0,2026,2026Q3,2026-09
+2026-09-11,USA,Global,General,58.0,0.0,NewsAPI,,,False,The Times of India,"KMC hikes water tariff from Oct 1, domestic rate up 58%, civic body expects Rs 30-crore boost annually",58.0,2026,2026Q3,2026-09

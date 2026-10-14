@@ -1,0 +1,63 @@
+file,column,dtype,description
+tariff_timeline.csv,date,date,Date of tariff announcement or implementation (YYYY-MM-DD)
+tariff_timeline.csv,imposing_country,string,"ISO code of the country imposing the tariff (USA, CHN, EU27, CAN, etc.)"
+tariff_timeline.csv,target_country,string,ISO code of the country or region receiving the tariff (ALL = universal)
+tariff_timeline.csv,sector,string,"Economic sector targeted (All Goods, Steel, EVs, Semiconductors, Agriculture, etc.)"
+tariff_timeline.csv,tariff_rate_pct,float,New tariff rate as a percentage of import value
+tariff_timeline.csv,prev_rate_pct,float,Previous tariff rate before this announcement
+tariff_timeline.csv,tariff_rate_delta,float,Change in rate (tariff_rate_pct minus prev_rate_pct)
+tariff_timeline.csv,type,string,"Action type: New Tariff, Escalation, Retaliation, Universal Baseline, Reduction, Export Control"
+tariff_timeline.csv,legal_basis,string,"Legal authority (Section 232, Section 301, IEEPA, MOFCOM Order, WTO Authorization)"
+tariff_timeline.csv,estimated_trade_value_usd_bn,float,Estimated annual bilateral trade volume affected (USD billions)
+tariff_timeline.csv,retaliation,boolean,True if this action is a direct retaliation to a prior tariff
+tariff_timeline.csv,source,string,"Official source of the announcement (USTR.gov, MOFCOM, EC, etc.)"
+tariff_timeline.csv,notes,string,Additional context and detail about the tariff action
+tariff_timeline.csv,year,integer,Calendar year derived from date
+tariff_timeline.csv,quarter,string,Fiscal quarter label (e.g. 2025Q1)
+tariff_timeline.csv,month,string,Year-month period label (e.g. 2025-04)
+currency_impact.csv,date,date,Trading date (YYYY-MM-DD)
+currency_impact.csv,currency,string,"ISO 4217 currency code (CNY, EUR, CAD, MXN, etc.)"
+currency_impact.csv,country,string,Country or region the currency belongs to
+currency_impact.csv,rate_vs_usd,float,Exchange rate: units of this currency per 1 US Dollar
+currency_impact.csv,pct_change_1d,float,1-day percentage change in exchange rate
+currency_impact.csv,pct_change_7d,float,7-day percentage change in exchange rate
+currency_impact.csv,pct_change_30d,float,30-day percentage change in exchange rate
+currency_impact.csv,rolling_30d_avg,float,30-day simple moving average of the exchange rate
+currency_impact.csv,rolling_7d_vol,float,7-day rolling standard deviation of the rate (volatility measure)
+currency_impact.csv,tariff_event_nearby,boolean,True if a major tariff announcement occurred within ±3 calendar days
+stock_market_reaction.csv,date,date,Trading date (YYYY-MM-DD)
+stock_market_reaction.csv,country,string,Country of the stock exchange
+stock_market_reaction.csv,index_name,string,Full descriptive name of the index (e.g. S&P 500 (USA))
+stock_market_reaction.csv,ticker,string,Yahoo Finance ticker symbol for the index
+stock_market_reaction.csv,close,float,Adjusted closing index level for the trading day
+stock_market_reaction.csv,daily_return_pct,float,Percentage return from the prior close to this close
+stock_market_reaction.csv,weekly_return_pct,float,5-trading-day return percentage
+stock_market_reaction.csv,ma_20d,float,20-day simple moving average of closing price
+stock_market_reaction.csv,ma_50d,float,50-day simple moving average of closing price
+stock_market_reaction.csv,volatility_20d,float,20-day rolling standard deviation of daily returns
+stock_market_reaction.csv,indexed_to_100,float,Performance index — 100 = 2018-01-01 baseline. Enables cross-country comparison spanning the full trade war
+stock_market_reaction.csv,tariff_event_nearby,boolean,True if a major tariff event occurred within ±5 trading days
+sector_impact.csv,date,date,Trading date (YYYY-MM-DD)
+sector_impact.csv,sector,string,"Economic sector name (Technology, Automobiles, Agriculture, etc.)"
+sector_impact.csv,tariff_sensitivity,string,Estimated tariff exposure: High / Medium / Low based on sector trade intensity
+sector_impact.csv,indexed_to_100,float,Sector ETF performance index — 100 = 2018-01-01. Shows relative performance across trade war eras
+sector_impact.csv,volatility_10d,float,10-day rolling standard deviation of daily returns
+sector_impact.csv,daily_return_pct,float,Daily percentage return
+sector_impact.csv,weekly_return_pct,float,5-trading-day percentage return
+inflation_response.csv,date,date,"Observation month (first day of month, FRED convention)"
+inflation_response.csv,metric,string,"Economic metric: CPI, PPI, PCE, Trade Balance, Import Price Index, Industrial Production, Consumer Sentiment"
+inflation_response.csv,category,string,"Subcategory of the metric (All Items, Commodities, Core, Manufacturing, etc.)"
+inflation_response.csv,value,float,Index level or value for the metric in the observation period
+inflation_response.csv,mom_change_pct,float,Month-over-month percentage change
+inflation_response.csv,yoy_change_pct,float,Year-over-year percentage change
+inflation_response.csv,era,string,Trade war era label: Pre-Trade War / Trade War 1.0 / Phase 1 + COVID / Trade War 2.0
+inflation_response.csv,post_tariff_era,boolean,True if observation is from April 2 2025 onward (Liberation Day)
+trade_volume_annual.csv,year,integer,Calendar year of the World Bank observation
+trade_volume_annual.csv,country_code,string,ISO 3166-1 alpha-2 country code
+trade_volume_annual.csv,country,string,Full country name
+trade_volume_annual.csv,indicator,string,World Bank indicator code (e.g. NE.EXP.GNFS.CD)
+trade_volume_annual.csv,indicator_name,string,Human-readable indicator description
+trade_volume_annual.csv,type,string,Indicator category: Trade / GDP / Inflation / Investment / Labor
+trade_volume_annual.csv,value,float,Numeric value of the indicator for that country-year
+trade_volume_annual.csv,yoy_change_pct,float,Year-over-year percentage change in the indicator value
+trade_volume_annual.csv,period,string,Qualitative era: Pre-Trade War (pre-2018) / Trade War 1.0 (2018-2020) / Recovery (2021-2024) / Trade War 2.0 (2025+)
